@@ -26,8 +26,26 @@ class RainWater {
         }
         return water;
     }
-    public static void main(String args[]){
+    public static int trap1(int[] height) {
+        //step 1 : create an array(rightMax[]) which stores prefix max value for each element in input array;
+        //step 2 : iterate over input array and calculate water trapped in each place between left and right;
+        //step 3 : if water trapped is in negative,make it 0;
+        //step 4 : calculate the left value
+        //step 5 : return  total water trapped.
+        int rightMax[] = new int[height.length];
+        int leftMax=0;
+        int water=0;
+        for(int i=height.length-2;i>=0;i--){
+            rightMax[i] = Math.max(height[i+1],rightMax[i+1]);
+        }
 
+        for(int i=0;i<height.length;i++){
+            int curr = Math.min(leftMax,rightMax[i])-height[i];
+            curr = Math.max(0,curr);
+            water+=curr;
+            leftMax = Math.max(leftMax,height[i]);
+        }
+        return water;
     }
 }
 

@@ -21,4 +21,30 @@ Step 4 : If currentSum > maxSum,maxSum = currentSum.
         }
         return maxSum;
     }
+    public int maxSubArray2(int[] nums) {
+        //prints the range 
+        int maxSum = Integer.MIN_VALUE;
+        int currentSum = 0;
+        int start = 0;
+        int end = 0;
+
+        for(int i=0;i<nums.length;i++){
+
+            if(currentSum+nums[i]<nums[i]){
+                currentSum = 0;
+                start = i;
+            }
+            currentSum = currentSum + nums[i];
+            if(currentSum > maxSum ){
+                maxSum = Math.max(maxSum,currentSum);
+                end = i;
+            }
+
+        }
+        for(int i=start;i<=end;i++){
+            System.out.print(nums[i]+" ");
+
+        }
+        return maxSum;
+    }
 }

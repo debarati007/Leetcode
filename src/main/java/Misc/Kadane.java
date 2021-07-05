@@ -22,7 +22,7 @@ Step 4 : If currentSum > maxSum,maxSum = currentSum.
         return maxSum;
     }
     public int maxSubArray2(int[] nums) {
-        //prints the range 
+        //prints the range
         int maxSum = Integer.MIN_VALUE;
         int currentSum = 0;
         int start = 0;

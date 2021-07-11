@@ -9,3 +9,4 @@ Sl. No.| Problem Name | Problem Explanation | Solution |
 4 | Binary Search |[Explanation](https://leetcode.com/problems/binary-search/)|[Code](src/main/java/Misc/BinarySearch.java)
 5 | Find First and Last Position of Element in Sorted Array |[Explanation](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|[Code](src/main/java/Misc/RangeSearch.java)
 6 | Search Insert Position |[Explanation](https://leetcode.com/problems/search-insert-position/)|[Code](src/main/java/Misc/InsertCorrectPosition.java)
+7 | Print all subsequence in array |[Explanation](https://leetcode.com/problems/subsets/)|[Code](src/main/java/Misc/PrintArraySubSequence.java)

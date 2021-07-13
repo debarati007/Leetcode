@@ -10,3 +10,8 @@ Sl. No.| Problem Name | Problem Explanation | Solution |
 5 | Find First and Last Position of Element in Sorted Array |[Explanation](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|[Code](src/main/java/Misc/RangeSearch.java)
 6 | Search Insert Position |[Explanation](https://leetcode.com/problems/search-insert-position/)|[Code](src/main/java/Misc/InsertCorrectPosition.java)
 7 | Print all subsequence in array |[Explanation](https://leetcode.com/problems/subsets/)|[Code](src/main/java/Misc/PrintArraySubSequence.java)
+8 | Print all subsequence in array Second|[Explanation](https://leetcode.com/problems/subsets/)|[Code](src/main/java/Misc/PrintArraySubSequenceII.java)
+9 | Sort an array of 0'a,1's and 2's |[Explanation](https://leetcode.com/problems/sort-colors/)|[Code](src/main/java/Misc/Sort012.java)
+10 | Find duplicate and repeated element in same array |[Explanation](https://leetcode.com/problems/find-the-duplicate-number/)|[Code](src/main/java/Misc/DuplicateAndRepeat.java)
+
+

@@ -29,4 +29,13 @@ public class DuplicateAndRepeat {
 
     }
 
+    //optimised using XOR
+    //XOR all a[i] -> x
+    //x^(1^...^n)
+    //x^y=num
+    //separate a[i] in 2 buckets based on set and unset bits.
+    //separate 1 to n in 2 buckets based on set and unset bits.
+    //xor those 2 buckets to get the numbers and eliminate other results..
+    //number left in set bucket is missing and unset bucket is duplicate.
+
 }

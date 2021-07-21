@@ -4,16 +4,15 @@ serialNumber=$(echo "$lastLine" | cut -d "|" -f1)
 #echo $((serialNumber+1))
 newSerialNumber=$((serialNumber+1))
 newlyAddedFileNames=$(git diff --diff-filter=A --name-only HEAD )
-#newlyAddedFileNames=$(git diff --diff-filter=A --name-only HEAD --no-commit-id --name-status -r "$local_sha" | tr 'A ' ' ')
-IFS=' ' #setting space as delimiter
-read -ra fileArray <<<"$newlyAddedFileNames" #reading commit str as an array as tokens separated by IFS
-echo $fileArray
+
+fileArray=(${newlyAddedFileNames//" "/ })
+
 for i in "${fileArray[@]}";
 do
   if [[ $i =~ "test.java" ]]; then
     continue
   fi
-  echo Do you want to continue\?\(y\/n\)
+  echo Do you want to continue\ file: $i?\(y\/n\)
   read ans
   echo $i
   if [[ "$ans" == "Y" || "$ans" == "y" ]]; then
@@ -25,6 +24,7 @@ do
     echo "Line added in README.md"
     echo $newSerialNumber \| $problemName \|[Explanation]\($codeLink\)\| [Code]\($i\)\|
     echo $newSerialNumber \| $problemName \|[Explanation]\($codeLink\)\| [Code]\($i\)\| >> README.md
-    git add README.md $i
+    git add README.md
+    newSerialNumber=$((newSerialNumber+1))
   fi
 done

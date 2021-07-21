@@ -14,5 +14,3 @@ Sl. No.| Problem Name | Problem Explanation | Solution |
 9 | Sort an array of 0'a,1's and 2's |[Explanation](https://leetcode.com/problems/sort-colors/)|[Code](src/main/java/Misc/Sort012.java)
 10 | Find duplicate and repeated element in same array |[Explanation](https://leetcode.com/problems/find-the-duplicate-number/)|[Code](src/main/java/Misc/DuplicateAndRepeat.java)
 11 | Merge Sorted Array |[Explanation](https://leetcode.com/problems/merge-sorted-array/)|[Code](src/main/java/Misc/MergeSortedArray.java)
-
-

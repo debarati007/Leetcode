@@ -1,16 +1,21 @@
 package Misc;
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
+import java.io.*;
 import java.util.Properties;
 
 class RainWater {
     public static void main(String args[]) throws Exception {
         System.out.println("Hello");
-        FileInputStream fis = new FileInputStream("src\\main\\resources\\config.properties");
+        //FileInputStream fis = new FileInputStream("src\\main\\resources\\config.properties");
+
+        ClassLoader loader = Thread.currentThread().getContextClassLoader();
+        InputStream stream = loader.getResourceAsStream("config.properties");
+
         Properties prop=new Properties();
-        prop.load(fis);
+        prop.load(stream);
+
+
+
         System.out.println(prop.getProperty("password"));
 
     }

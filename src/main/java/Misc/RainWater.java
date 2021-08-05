@@ -1,6 +1,19 @@
 package Misc;
 
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Properties;
+
 class RainWater {
+    public static void main(String args[]) throws Exception {
+        System.out.println("Hello");
+        FileInputStream fis = new FileInputStream("C:\\Users\\debarati.banerjee\\Documents\\debarati\\Leetcode\\src\\main\\resources\\config.properties");
+        Properties prop=new Properties();
+        prop.load(fis);
+        System.out.println(prop.getProperty("password"));
+
+    }
     public static int trap(int[] height) {
         //Time Complexity O(n^2)
         //TODO : need to improve

@@ -8,7 +8,7 @@ import java.util.Properties;
 class RainWater {
     public static void main(String args[]) throws Exception {
         System.out.println("Hello");
-        FileInputStream fis = new FileInputStream("C:\\Users\\debarati.banerjee\\Documents\\debarati\\Leetcode\\src\\main\\resources\\config.properties");
+        FileInputStream fis = new FileInputStream("src\\main\\resources\\config.properties");
         Properties prop=new Properties();
         prop.load(fis);
         System.out.println(prop.getProperty("password"));

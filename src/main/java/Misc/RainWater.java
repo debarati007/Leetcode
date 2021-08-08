@@ -9,12 +9,9 @@ class RainWater {
         //FileInputStream fis = new FileInputStream("src\\main\\resources\\config.properties");
 
         ClassLoader loader = Thread.currentThread().getContextClassLoader();
-        InputStream stream = loader.getResourceAsStream("config.properties");
-
+        InputStream stream = loader.getResourceAsStream("Misc\\config.properties");
         Properties prop=new Properties();
         prop.load(stream);
-
-
 
         System.out.println(prop.getProperty("password"));
 

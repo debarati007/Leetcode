@@ -16,9 +16,9 @@ Sl. No.| Problem Name | Problem Explanation | Solution |
 11 | Merge Sorted Array |[Explanation](https://leetcode.com/problems/merge-sorted-array/)|[Code](src/main/java/Misc/MergeSortedArray.java)
 12 | Merge Interval |[Explanation](https://leetcode.com/problems/merge-intervals/)|[Code](src/main/java/Misc/MergeInterval.java)
 13 | Next Permutation |[Explanation](https://leetcode.com/problems/next-permutation/)|[Code](src/main/java/Misc/NextPermutation.java)
-14 | Next Permutation |[Explanation](https://leetcode.com/problems/next-permutation/)|[Code](src/main/java/Misc/NextPermutation.java)
-15 | Set Matrix Zero |[Explanation](https://leetcode.com/problems/set-matrix-zeroes/)|[Code](src/main/java/Misc/SetMatrixZero.java)
-16 | Pascal Triangle |[Explanation](https://leetcode.com/problems/pascals-triangle/)|[Code](src/main/java/Misc/PascalTriangle.java)
+14 | Set Matrix Zero |[Explanation](https://leetcode.com/problems/set-matrix-zeroes/)|[Code](src/main/java/Misc/SetMatrixZero.java)
+15 | Pascal Triangle |[Explanation](https://leetcode.com/problems/pascals-triangle/)|[Code](src/main/java/Misc/PascalTriangle.java)
+16 | Stock Sell1 |[Explanation](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|[Code](src/main/java/Misc/StockSell1.java)
 
 
 

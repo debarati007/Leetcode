@@ -19,7 +19,7 @@ Sl. No.| Problem Name | Problem Explanation | Solution |
 14 | Set Matrix Zero |[Explanation](https://leetcode.com/problems/set-matrix-zeroes/)|[Code](src/main/java/Misc/SetMatrixZero.java)
 15 | Pascal Triangle |[Explanation](https://leetcode.com/problems/pascals-triangle/)|[Code](src/main/java/Misc/PascalTriangle.java)
 16 | Stock Sell1 |[Explanation](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|[Code](src/main/java/Misc/StockSell1.java)
-17 | Stock Sell1 |[Explanation](https://leetcode.com/problems/rotate-image/)|[Code](src/main/java/Misc/RotateMatrix.java)
+17 | Rotate Matrix |[Explanation](src/main/java/Misc/SequenceNumberGeneratorTest.java)|[Code](src/main/java/Misc/SequenceNumberGeneratorTest.java)
 
 
 

@@ -19,7 +19,9 @@ Sl. No.| Problem Name | Problem Explanation | Solution |
 14 | Set Matrix Zero |[Explanation](https://leetcode.com/problems/set-matrix-zeroes/)|[Code](src/main/java/Misc/SetMatrixZero.java)
 15 | Pascal Triangle |[Explanation](https://leetcode.com/problems/pascals-triangle/)|[Code](src/main/java/Misc/PascalTriangle.java)
 16 | Stock Sell1 |[Explanation](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|[Code](src/main/java/Misc/StockSell1.java)
-17 | Print Numbers Using Threads |[Explanation](src/main/java/Misc/SequenceNumberGeneratorTest.java)|[Code](src/main/java/Misc/SequenceNumberGeneratorTest.java)
+17 | Print Numbers Using Threads |[Explanation](src/main/java/Misc/NumberGeneratorUsingThread/SequenceNumberGeneratorTest.java)|[Code](src/main/java/Misc/NumberGeneratorUsingThread/SequenceNumberGeneratorTest.java)
+18 | Create Deadlock |[Explanation](src/main/java/Misc/CreateDeadLock/Deadlock.java)|[Code](src/main/java/Misc/CreateDeadLock/Deadlock.java)
+19 | Producer And Consumer |[Explanation](src/main/java/Misc/ProducerAndConsumer/ProducerAndConsumerTest.java)|[Code](src/main/java/Misc/ProducerAndConsumer/ProducerAndConsumerTest.java)
 
 
 

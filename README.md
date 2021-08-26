@@ -22,8 +22,8 @@ Sl. No.| Problem Name | Problem Explanation | Solution |
 17 | Print Numbers Using Threads |[Explanation](src/main/java/Misc/NumberGeneratorUsingThread/SequenceNumberGeneratorTest.java)|[Code](src/main/java/Misc/NumberGeneratorUsingThread/SequenceNumberGeneratorTest.java)
 18 | Create Deadlock |[Explanation](src/main/java/Misc/CreateDeadLock/Deadlock.java)|[Code](src/main/java/Misc/CreateDeadLock/Deadlock.java)
 19 | Producer And Consumer |[Explanation](src/main/java/Misc/ProducerAndConsumer/ProducerConsumerTest.java)|[Code](src/main/java/Misc/ProducerAndConsumer/ProducerConsumerTest.java)
-19 | Search a 2D Matrix |[Explanation](https://leetcode.com/problems/search-a-2d-matrix/)|[Code](src/main/java/Misc/DSA/SearchIn2DMatrix.java)
-19 | Search a 2D Matrix II |[Explanation](https://leetcode.com/problems/search-a-2d-matrix-ii/)|[Code](src/main/java/Misc/DSA/SearchIn2DMatrix2.java)
+20 | Search a 2D Matrix |[Explanation](https://leetcode.com/problems/search-a-2d-matrix/)|[Code](src/main/java/Misc/DSA/SearchIn2DMatrix.java)
+21 | Search a 2D Matrix II |[Explanation](https://leetcode.com/problems/search-a-2d-matrix-ii/)|[Code](src/main/java/Misc/DSA/SearchIn2DMatrix2.java)
 
 
 

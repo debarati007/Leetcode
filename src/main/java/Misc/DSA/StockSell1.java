@@ -1,4 +1,4 @@
-package Misc;
+package Misc.DSA;
 
 public class StockSell1 {
     //Brute force

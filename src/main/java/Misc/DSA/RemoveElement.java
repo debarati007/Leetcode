@@ -1,4 +1,4 @@
-package Misc;
+package Misc.DSA;
 public class RemoveElement {
     public int removeElement(int[] nums, int val) {
         int j = 0;

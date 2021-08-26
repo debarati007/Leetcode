@@ -1,4 +1,4 @@
-package Misc;
+package Misc.DSA;
 
 public class InsertCorrectPosition {
     public int searchInsert(int[] nums, int target) {

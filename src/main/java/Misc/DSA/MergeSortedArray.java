@@ -1,4 +1,4 @@
-package Misc;
+package Misc.DSA;
 
 public class MergeSortedArray {
     public static void main(String args[]) {

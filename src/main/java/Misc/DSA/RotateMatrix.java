@@ -1,4 +1,4 @@
-package Misc;
+package Misc.DSA;
 
 public class RotateMatrix {
     //transposing the matrix and reversing its each row afterwards rotates the matrix.

@@ -1,4 +1,4 @@
-package Misc;
+package Misc.DSA;
 
 class Kadane {
 /*

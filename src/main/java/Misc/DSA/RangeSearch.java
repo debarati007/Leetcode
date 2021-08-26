@@ -1,4 +1,4 @@
-package Misc;
+package Misc.DSA;
 
 public class RangeSearch {
     public int[] searchRange(int[] nums, int target) {

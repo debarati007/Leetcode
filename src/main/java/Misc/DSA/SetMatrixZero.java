@@ -1,4 +1,4 @@
-package Misc;
+package Misc.DSA;
 
 public class SetMatrixZero {
 //brute force approach

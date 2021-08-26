@@ -1,4 +1,4 @@
-package Misc;
+package Misc.DSA;
 
 import java.util.ArrayList;
 import java.util.HashSet;

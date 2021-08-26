@@ -1,4 +1,4 @@
-package Misc;
+package Misc.DSA;
 
 import javax.swing.plaf.synth.SynthEditorPaneUI;
 import java.util.Arrays;

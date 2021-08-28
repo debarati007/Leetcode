@@ -24,6 +24,7 @@ Sl. No.| Problem Name | Problem Explanation | Solution |
 19 | Producer And Consumer |[Explanation](src/main/java/Misc/ProducerAndConsumer/ProducerConsumerTest.java)|[Code](src/main/java/Misc/ProducerAndConsumer/ProducerConsumerTest.java)
 20 | Search a 2D Matrix |[Explanation](https://leetcode.com/problems/search-a-2d-matrix/)|[Code](src/main/java/Misc/DSA/SearchIn2DMatrix.java)
 21 | Search a 2D Matrix II |[Explanation](https://leetcode.com/problems/search-a-2d-matrix-ii/)|[Code](src/main/java/Misc/DSA/SearchIn2DMatrix2.java)
+22 | Search a 2D Matrix II |[Explanation](https://leetcode.com/problems/unique-paths/)|[Code](src/main/java/Misc/DSA/GridUniquePaths.java)
 
 
 

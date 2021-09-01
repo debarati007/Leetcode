@@ -6,10 +6,10 @@ public class CountInversion {
     public static void main(String[] args) {
         int[] arr = {1, 20, 6, 4, 5};
 //{20,6},{20,4},{20,5},{6,4},{6,5}
-//        System.out.println(
-//                mergeSortAndCount(arr, 0, arr.length - 1));
         System.out.println(
-                mergeSortAndCountBF(arr, arr.length));
+                mergeSortAndCount(arr, 0, arr.length - 1));
+//        System.out.println(
+//                mergeSortAndCountBF(arr, arr.length));
 
     }
     //brute force solution that takes O(n2) time and O(1) space complexity.

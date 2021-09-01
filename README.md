@@ -26,6 +26,7 @@ Sl. No.| Problem Name | Problem Explanation | Solution |
 21 | Search a 2D Matrix II |[Explanation](https://leetcode.com/problems/search-a-2d-matrix-ii/)|[Code](src/main/java/Misc/DSA/SearchIn2DMatrix2.java)
 22 | Grid Unique-Paths |[Explanation](https://leetcode.com/problems/unique-paths/)|[Code](src/main/java/Misc/DSA/GridUniquePaths.java)
 22 | Count Inversion In An Unsorted Array |[Explanation](https://www.geeksforgeeks.org/counting-inversions/)|[Code](src/main/java/Misc/DSA/CountInversion.java)
+23 | Count reverse pair In An Unsorted Array |[Explanation](https://leetcode.com/problems/reverse-pairs/)|[Code](src/main/java/Misc/DSA/ReversePair.java)
 
 
 

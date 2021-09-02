@@ -27,6 +27,10 @@ Sl. No.| Problem Name | Problem Explanation | Solution |
 22 | Grid Unique-Paths |[Explanation](https://leetcode.com/problems/unique-paths/)|[Code](src/main/java/Misc/DSA/GridUniquePaths.java)
 22 | Count Inversion In An Unsorted Array |[Explanation](https://www.geeksforgeeks.org/counting-inversions/)|[Code](src/main/java/Misc/DSA/CountInversion.java)
 23 | Count reverse pair In An Unsorted Array |[Explanation](https://leetcode.com/problems/reverse-pairs/)|[Code](src/main/java/Misc/DSA/ReversePair.java)
+24 | Count reverse pair In An Unsorted Array |[Explanation](https://leetcode.com/problems/powx-n/submissions/)|[Code](src/main/java/Misc/DSA/PowerOfNumber.java)
+25 | Majority Element Appearing >n/2 time |[Explanation](https://leetcode.com/problems/majority-element/)|[Code](src/main/java/Misc/DSA/MajorityElementEasy.java)
+26 | Majority Element Appearing >n/3 time |[Explanation](https://leetcode.com/problems/majority-element-ii/)|[Code](src/main/java/Misc/DSA/MajorityElementHard.java)
+
 
 
 

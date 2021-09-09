@@ -30,6 +30,9 @@ Sl. No.| Problem Name | Problem Explanation | Solution |
 24 | Count reverse pair In An Unsorted Array |[Explanation](https://leetcode.com/problems/powx-n/submissions/)|[Code](src/main/java/Misc/DSA/PowerOfNumber.java)
 25 | Majority Element Appearing >n/2 time |[Explanation](https://leetcode.com/problems/majority-element/)|[Code](src/main/java/Misc/DSA/MajorityElementEasy.java)
 26 | Majority Element Appearing >n/3 time |[Explanation](https://leetcode.com/problems/majority-element-ii/)|[Code](src/main/java/Misc/DSA/MajorityElementHard.java)
+27 | Power Of Number |[Explanation](https://leetcode.com/problems/powx-n/)|[Code](src/main/java/Misc/DSA/PowerOfNumber.java)
+28 | Reverse Pair |[Explanation](https://leetcode.com/problems/reverse-pairs/)|[Code](src/main/java/Misc/DSA/ReversePair.java)
+29 | Three Sum |[Explanation](https://leetcode.com/problems/3sum/)|[Code](src/main/java/Misc/DSA/ThreeSum.java)
 
 
 

@@ -1,0 +1,46 @@
+1. DRY (Don't repeat yourself)
+Our first object-oriented design principle is DRY, as the name suggests DRY (don't repeat yourself) means don't write duplicate code, instead use Abstraction to abstract common things in one place. If you have a block of code in more than two places, consider making it a separate method, or if you use a hard-coded value more than one time, make them public final constant.
+The benefit of this Object-oriented design principle is in maintenance. It's important not to abuse it, duplication is not for code, but for functionality. It means if you used standard code to validate OrderID and SSN, it doesn’t mean they are the same, or they will remain the same in the future.
+By using standard code for two different functionality or thing, you tightly couple them forever, and when your OrderId changes its format, your SSN validation code will break.
+So beware of such coupling and just don’t combine anything which uses similar code but is not related.
+
+2. Encapsulate What Changes
+Only one thing is constant in the software field, and that is "Change," So encapsulate the code you expect or suspect to be changed in the future. The benefit of this OOP Design principle is that It's easy to test and maintain proper encapsulated code.
+If you are coding in Java, then follow the principle of making variables and methods private by default and increasing access step by step, like from private to protected and not public.
+Several of the design patterns in Java uses Encapsulation, the Factory design pattern is one example of Encapsulation that encapsulates object creation code and provides flexibility to introduce a new product later with no impact on existing code.
+
+3. Open Closed Design Principle
+Classes, methods, or functions should be Open for extension (new functionality) and Closed for modification. This is another beautiful SOLID design principle, which prevents someone from changing already tried and tested code.
+Ideally, if you are adding new functionality only, then your code should be tested, and that's the goal of the Open Closed Design principle. By the way, the Open-Closed principle is "O" from the SOLID acronym.
+
+4. Single Responsibility Principle (SRP)
+Single Responsibility Principle is another SOLID design principle, and represent  "S" on the SOLID acronym. As per SRP, there should not be more than one reason for a class to change, or a class should always handle single functionality.
+If you put more than one functionality in one Class in Java, it introduces coupling between two functionality, and even if you change one feature, there is a chance you broke coupled functionality,  which requires another round of testing to avoid any surprise on the production environment.
+
+5. Dependency Injection or Inversion principle
+Don't ask for dependency; it will be provided to you by the framework. This has been very well implemented in the Spring framework, the beauty of this design principle is that any class which is injected by the DI framework is easy to test with the mock object and more comfortable to maintain because object creation code is centralized in the framework and the client code is not littered with that.
+There are multiple ways to implemented Dependency injection like using bytecode instrumentation, which some AOP (Aspect Oriented Programming) framework like AspectJ does, or by using proxies just like used in Spring.
+It represents "D" on the SOLID acronym.
+
+6. Favor Composition over Inheritance
+Always favor composition over inheritance, if possible. Some of you may argue this, but I found that Composition is a lot more flexible than Inheritance.
+Composition allows changing the behavior of a class at run-time by setting property during run-time, and by using Interfaces to compose a class, we use polymorphism, which provides flexibility to replace with better implementation at any time.
+
+7. Liskov Substitution Principle (LSP)
+According to the Liskov Substitution Principle, Subtypes must be substitutable for supertype, i.e. methods or functions which use superclass type must be able to work with the object of subclass without any issue".
+LSP is closely related to the Single responsibility principle and Interface Segregation Principle. If a class has more functionality, then the subclass might not support some of the functionality and does violate LSP.
+In order to follow LSP SOLID design principle, derived class or subclass must enhance functionality, but not reduce them. LSP represents "L" on the SOLID acronym.
+
+8. Interface Segregation Principle (ISP)
+The Interface Segregation Principle states that a client should not implement an interface if it doesn't use that. This happens mostly when one interface contains more than one functionality, and the client only needs one functionality and no other.
+Interface design is a tricky job because once you release your interface, you can not change it without breaking all implementation.
+Another benefit of this design principle in Java is, the interface has the disadvantage of implementing all methods before any class can use it, so having single functionality means less method to implement.
+
+9. Programming for Interface not implementation
+Always program for the interface and not for application; this will lead to flexible code that can work with any new implementation of the interface.
+So use interface type on variables, return types of method, or argument type of methods in Java.
+
+10. Delegation principles
+Don't do all stuff by yourself,  delegate it to the respective class. Classical example of delegation design principle is equals() and hashCode() method in Java. In order to compare two objects for equality, we ask the class itself to make a comparison instead of the Client class doing that check.
+The key benefit of this design principle is no duplication of code and pretty easy to modify behavior. Event delegation is another example of this principle, where an event is delegated to handlers for handling.
+

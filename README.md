@@ -33,6 +33,8 @@ Sl. No.| Problem Name | Problem Explanation | Solution |
 27 | Power Of Number |[Explanation](https://leetcode.com/problems/powx-n/)|[Code](src/main/java/Misc/DSA/PowerOfNumber.java)
 28 | Reverse Pair |[Explanation](https://leetcode.com/problems/reverse-pairs/)|[Code](src/main/java/Misc/DSA/ReversePair.java)
 29 | Three Sum |[Explanation](https://leetcode.com/problems/3sum/)|[Code](src/main/java/Misc/DSA/ThreeSum.java)
+29 | Four Sum |[Explanation](https://leetcode.com/problems/4sum/)|[Code](src/main/java/Misc/DSA/FourSum.java)
+29 | Longest Consecutive Sequence |[Explanation](https://leetcode.com/problems/longest-consecutive-sequence/)|[Code](src/main/java/Misc/DSA/LongestConsecutiveSequence.java)
 
 
 

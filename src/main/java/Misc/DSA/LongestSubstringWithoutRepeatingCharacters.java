@@ -1,12 +1,15 @@
 package Misc.DSA;
 
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 
 public class LongestSubstringWithoutRepeatingCharacters {
 
     public static void main(String[] args) {
         String input = "pwwkew";
-        String longestSubstring = getLongestSubstring(input, 0);
+        int longestSubstring = lengthOfLongestSubstring(input);
+        System.out.println(longestSubstring);
     }
 //incomplete brute force solution
 //this function recursively prints all substrings
@@ -28,5 +31,28 @@ public class LongestSubstringWithoutRepeatingCharacters {
     }
 
     //optimised
-    //
+    //here we have 2 pointers left and right.
+    //both are at 0 initially
+    //next we keep adding all characters one by 1 in map and its index as value.
+    //at the same time calculate the maxLength which is right-left+1
+    //if the chracter already exixts in map,then we need to get new range as its repeated in the left to right range.
+    //so we move left pointer to repeated charater's index+1 and continue.
+    //finally when right pointer reaches length of string,we return the maxLength;
+    public static int lengthOfLongestSubstring(String s) {
+        Map<Character,Integer> map=new HashMap<>();
+        int left=0,right=0;
+        int n=s.length();
+        int len=0;
+
+        while(right<n){
+            if(map.containsKey(s.charAt(right))){
+                left=Math.max(left,map.get(s.charAt(right))+1);
+            }
+            map.put(s.charAt(right),right);
+            len=Math.max(len,right-left+1);
+            right++;
+        }
+
+        return len;
+    }
 }

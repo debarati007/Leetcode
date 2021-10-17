@@ -7,7 +7,7 @@ public class MaxConsecutiveOnes {
     //time complexity O(n) and using 2 pointers.
     public static int findMaxConsecutiveOnes(int[] nums) {
         int max = 0;
-        int j=0;
+        int j;
         for (int i = 0; i < nums.length; i++) {
             int max_so_far = 0;
 

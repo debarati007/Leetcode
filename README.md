@@ -64,10 +64,10 @@ Sl. No.| Problem Name | Problem Explanation | Solution |
 58 | Anagram |[Explanation](https://leetcode.com/problems/valid-anagram/)|[Code](src/main/java/Misc/DSA/Anagram.java)
 59 | last word |[Explanation](https://leetcode.com/problems/length-of-last-word/)|[Code](src/main/java/Misc/DSA/LastWord.java)
 60 | Longest Common Prefix |[Explanation](https://leetcode.com/problems/longest-common-prefix/)|[Code](src/main/java/Misc/DSA/LongestCommonPrefix.java)
+61 | Palindrome Number |[Explanation](https://leetcode.com/problems/palindrome-number/)|[Code](src/main/java/Misc/DSA/PalindromeNumber.java)
+62 | Square root |[Explanation](https://leetcode.com/problems/sqrtx/)|[Code](src/main/java/Misc/DSA/SquareRoot.java)
+63 | Reverse a Number |[Explanation](https://leetcode.com/problems/reverse-integer/)|[Code](src/main/java/Misc/DSA/ReverseNumber.java)
 
-61 | Palindrome Number |[Explanation](https://leetcode.com/problems/longest-common-prefix/)|[Code](src/main/java/Misc/DSA/PalindromeNumber.java)
-62 | Square root |[Explanation](https://leetcode.com/problems/longest-common-prefix/)|[Code](src/main/java/Misc/DSA/SquareRoot.java)
-63 | Reverse a Number |[Explanation](https://leetcode.com/problems/longest-common-prefix/)|[Code](src/main/java/Misc/DSA/ReverseNumber.java)
 64 | Happy number |[Explanation](https://leetcode.com/problems/longest-common-prefix/)|[Code](src/main/java/Misc/DSA/HappyNumber.java)
 65 | Guess number |[Explanation](https://leetcode.com/problems/longest-common-prefix/)|[Code](src/main/java/Misc/DSA/GuessNumber.java)
 66 | single Number |[Explanation](https://leetcode.com/problems/longest-common-prefix/)|[Code](src/main/java/Misc/DSA/SingleNumber.java)

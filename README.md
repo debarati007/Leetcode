@@ -67,10 +67,9 @@ Sl. No.| Problem Name | Problem Explanation | Solution |
 61 | Palindrome Number |[Explanation](https://leetcode.com/problems/palindrome-number/)|[Code](src/main/java/Misc/DSA/PalindromeNumber.java)
 62 | Square root |[Explanation](https://leetcode.com/problems/sqrtx/)|[Code](src/main/java/Misc/DSA/SquareRoot.java)
 63 | Reverse a Number |[Explanation](https://leetcode.com/problems/reverse-integer/)|[Code](src/main/java/Misc/DSA/ReverseNumber.java)
-
-64 | Happy number |[Explanation](https://leetcode.com/problems/longest-common-prefix/)|[Code](src/main/java/Misc/DSA/HappyNumber.java)
-65 | Guess number |[Explanation](https://leetcode.com/problems/longest-common-prefix/)|[Code](src/main/java/Misc/DSA/GuessNumber.java)
-66 | single Number |[Explanation](https://leetcode.com/problems/longest-common-prefix/)|[Code](src/main/java/Misc/DSA/SingleNumber.java)
+64 | Happy number |[Explanation](https://leetcode.com/problems/happy-number/)|[Code](src/main/java/Misc/DSA/HappyNumber.java)
+65 | Guess number |[Explanation](https://leetcode.com/problems/guess-number-higher-or-lower/)|[Code](src/main/java/Misc/DSA/GuessNumber.java)
+66 | single Number |[Explanation](https://leetcode.com/problems/single-number/)|[Code](src/main/java/Misc/DSA/SingleNumber.java)
 
 
 

@@ -70,7 +70,13 @@ Sl. No.| Problem Name | Problem Explanation | Solution |
 64 | Happy number |[Explanation](https://leetcode.com/problems/happy-number/)|[Code](src/main/java/Misc/DSA/HappyNumber.java)
 65 | Guess number |[Explanation](https://leetcode.com/problems/guess-number-higher-or-lower/)|[Code](src/main/java/Misc/DSA/GuessNumber.java)
 66 | single Number |[Explanation](https://leetcode.com/problems/single-number/)|[Code](src/main/java/Misc/DSA/SingleNumber.java)
+67 | LinkedList Delete Given Node |[Explanation](https://leetcode.com/problems/delete-node-in-a-linked-list/)|[Code](src/main/java/Misc/DSA/LinkedListDeleteGivenNode.java)
+68 | LinkedList Reverse |[Explanation](https://leetcode.com/problems/delete-node-in-a-linked-list/)|[Code](src/main/java/Misc/DSA/LinkedListReverse.java)
+69 | LinkedList Reverse Range |[Explanation](https://www.geeksforgeeks.org/reverse-sublist-linked-list/)|[Code](src/main/java/Misc/DSA/LinkedListReverseRange.java)
+70 | LinkedList Detect Loop |[Explanation](https://leetcode.com/problems/linked-list-cycle/)|[Code](src/main/java/Misc/DSA/LinkedListDetectLoop.java)
+71 | LinkedList Palindrome |[Explanation](https://leetcode.com/problems/palindrome-linked-list/)|[Code](src/main/java/Misc/DSA/LinkedListPalindrome.java)
+72 | LinkedList Remove Given Value |[Explanation](https://leetcode.com/problems/remove-linked-list-elements/)|[Code](src/main/java/Misc/DSA/LinkedListRemoveGivenValue.java)
 
 
-
-
+73 | LinkedList Add one |[Explanation](https://www.geeksforgeeks.org/add-1-number-represented-linked-list/)|[Code](src/main/java/Misc/DSA/LinkedListAddOne.java)
+74 | LinkedList Add Numbers |[Explanation](https://leetcode.com/problems/add-two-numbers/)|[Code](src/main/java/Misc/DSA/LinkedListAddNumbers.java)

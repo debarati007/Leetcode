@@ -76,7 +76,10 @@ Sl. No.| Problem Name | Problem Explanation | Solution |
 70 | LinkedList Detect Loop |[Explanation](https://leetcode.com/problems/linked-list-cycle/)|[Code](src/main/java/Misc/DSA/LinkedListDetectLoop.java)
 71 | LinkedList Palindrome |[Explanation](https://leetcode.com/problems/palindrome-linked-list/)|[Code](src/main/java/Misc/DSA/LinkedListPalindrome.java)
 72 | LinkedList Remove Given Value |[Explanation](https://leetcode.com/problems/remove-linked-list-elements/)|[Code](src/main/java/Misc/DSA/LinkedListRemoveGivenValue.java)
+73 | LinkedList Add Numbers |[Explanation](https://leetcode.com/problems/add-two-numbers/)|[Code](src/main/java/Misc/DSA/LinkedListAddNumbers.java)
+74 | LinkedList Remove Duplicates |[Explanation](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|[Code](src/main/java/Misc/DSA/LinkedListRemoveDuplicates.java)
+75 | LinkedList Merge List |[Explanation](https://leetcode.com/problems/merge-two-sorted-lists/)|[Code](src/main/java/Misc/DSA/LinkedListMergeList.java)
+76 | LinkedList Add one |[Explanation](https://www.geeksforgeeks.org/add-1-number-represented-linked-list/)|[Code](src/main/java/Misc/DSA/LinkedListAddOne.java)
+78 | LinkedList Odd Even |[Explanation](https://leetcode.com/problems/odd-even-linked-list/)|[Code](src/main/java/Misc/DSA/LinkedListOddEven.java)
 
-
-73 | LinkedList Add one |[Explanation](https://www.geeksforgeeks.org/add-1-number-represented-linked-list/)|[Code](src/main/java/Misc/DSA/LinkedListAddOne.java)
-74 | LinkedList Add Numbers |[Explanation](https://leetcode.com/problems/add-two-numbers/)|[Code](src/main/java/Misc/DSA/LinkedListAddNumbers.java)
+Partition,Swap Node

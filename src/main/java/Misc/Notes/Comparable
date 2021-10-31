@@ -1,0 +1,6 @@
+Comparable - interface, part of java.lang package,natural sorting,all collections mostly implement it, No need to implement any extra class, has an abstract method compareTo() ,
+Need to override this method,this method takes 1 object as parameter and compares this or current object with that obj,returns negative,0 or positive int if < ,= or >.  If compared with null ,gives  null pointer exception unlike equals method. The result should always be in sync with equals method means if equals return 2 obj are equal then copareTo also returns same. Arrays.sort(),collections.sort() ,treeMap,treeSet etc uses this method.
+
+The return type is int and we can return any int value not mandatory 0,1 and -1.
+BigDecimal() like 2.0 and 2.00 returns equal in compareTo method but false in equals method which causes in allowing duplicate in SortedSet and SortedMap  when storing such objects.
+If object has multiple fields,we can compare from most to least useful like for student - name,id,age. I.e if both names equal then id then age will be compared. It is always better to compare using relational operator instead of minus as this will reduce chance of getting integer overflow error.

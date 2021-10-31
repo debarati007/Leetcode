@@ -80,6 +80,21 @@ Sl. No.| Problem Name | Problem Explanation | Solution |
 74 | LinkedList Remove Duplicates |[Explanation](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|[Code](src/main/java/Misc/DSA/LinkedListRemoveDuplicates.java)
 75 | LinkedList Merge List |[Explanation](https://leetcode.com/problems/merge-two-sorted-lists/)|[Code](src/main/java/Misc/DSA/LinkedListMergeList.java)
 76 | LinkedList Add one |[Explanation](https://www.geeksforgeeks.org/add-1-number-represented-linked-list/)|[Code](src/main/java/Misc/DSA/LinkedListAddOne.java)
-78 | LinkedList Odd Even |[Explanation](https://leetcode.com/problems/odd-even-linked-list/)|[Code](src/main/java/Misc/DSA/LinkedListOddEven.java)
+77 | LinkedList Partition |[Explanation](https://leetcode.com/problems/partition-list/)|[Code](src/main/java/Misc/DSA/LinkedListPartition.java)
+78 | LinkedList Swap Node |[Explanation](https://leetcode.com/problems/swap-nodes-in-pairs/)|[Code](src/main/java/Misc/DSA/LinkedListSwapNode.java)
+79 | Java Comparable Example |[Explanation](https://javarevisited.blogspot.com/2014/02/java-comparable-example-for-natural-order-sorting.html#more)|[Code](src/main/java/Misc/CoreJava/Bank.java)
+80 | Binary Tree InOrder |[Explanation](https://leetcode.com/problems/binary-tree-inorder-traversal/)|[Code](src/main/java/Misc/DSA/TreeIndorderTraversal.java)
+81 | Tree Max Depth |[Explanation](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|[Code](src/main/java/Misc/DSA/TreeMaxDepth.java)
+82 | Tree Min Depth |[Explanation](https://leetcode.com/problems/minimum-depth-of-binary-tree/)|[Code](src/main/java/Misc/DSA/TreeMinDepth.java)
+83 | Tree Balance Check |[Explanation](https://leetcode.com/problems/balanced-binary-tree/)|[Code](src/main/java/Misc/DSA/TreeBalanceCheck.java)
+84 | Tree Validate |[Explanation](https://leetcode.com/problems/validate-binary-search-tree/)|[Code](src/main/java/Misc/DSA/TreeValidate.java)
+85 | Tree LCA |[Explanation](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)|[Code](src/main/java/Misc/DSA/TreeLCA.java)
+86 | Tree Path Sum |[Explanation](https://leetcode.com/problems/path-sum/)|[Code](src/main/java/Misc/DSA/TreePathSum.java)
+87 | Tree Check Same |[Explanation](https://leetcode.com/problems/same-tree/)|[Code](src/main/java/Misc/DSA/TreeCheckSame.java)
+88 | Tree Invert |[Explanation](https://leetcode.com/problems/invert-binary-tree/)|[Code](src/main/java/Misc/DSA/TreeInvert.java)
+89 | Tree Mirror |[Explanation](https://leetcode.com/problems/symmetric-tree/)|[Code](src/main/java/Misc/DSA/TreeMirror.java)
 
-Partition,Swap Node
+
+Level order,Paths, Max path sum, 
+Right side view,flatten to linked list, Kth smallest, Next Right
+ 

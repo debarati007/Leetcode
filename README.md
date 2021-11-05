@@ -93,7 +93,8 @@ Sl. No.| Problem Name | Problem Explanation | Solution |
 87 | Tree Check Same |[Explanation](https://leetcode.com/problems/same-tree/)|[Code](src/main/java/Misc/DSA/TreeCheckSame.java)
 88 | Tree Invert |[Explanation](https://leetcode.com/problems/invert-binary-tree/)|[Code](src/main/java/Misc/DSA/TreeInvert.java)
 89 | Tree Mirror |[Explanation](https://leetcode.com/problems/symmetric-tree/)|[Code](src/main/java/Misc/DSA/TreeMirror.java)
-
+90 | Tree Path |[Explanation](https://leetcode.com/problems/binary-tree-paths/)|[Code](src/main/java/Misc/DSA/TreePath.java)
+91 | Sort Map by Values |[Explanation]()|[Code](src/main/java/Misc/Java8/SortMapByValues.java)
 
 Level order,Paths, Max path sum, 
 Right side view,flatten to linked list, Kth smallest, Next Right

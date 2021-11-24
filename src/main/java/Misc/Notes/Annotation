@@ -1,0 +1,27 @@
+What an Annotation Is
+annotations are Java types that are preceded by an “@” symbol.
+an annotation assigns extra metadata to the source code it's bound to.
+By adding an annotation to a method, interface, class, or field, we can:
+Inform the compiler about warnings and errors
+Manipulate source code at compilation time
+Modify or examine behavior at runtime
+
+
+Creating Custom Annotations
+ Class Level Annotation Example
+The first step toward creating a custom annotation is to declare it using the @interface keyword:
+
+public @interface JsonSerializable {
+}
+The next step is to add meta-annotations to specify the scope and the target of our custom annotation:
+
+@Retention(RetentionPolicy.RUNTIME)
+@Target(ElementType.Type)
+public @interface JsonSerializable {
+}
+
+When creating custom annotations with methods,
+we should be aware that these methods must have no parameters,
+and cannot throw an exception.
+Also, the return types are restricted to primitives, String, Class, enums,
+annotations, and arrays of these types, and the default value cannot be null.

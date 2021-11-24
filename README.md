@@ -95,7 +95,10 @@ Sl. No.| Problem Name | Problem Explanation | Solution |
 89 | Tree Mirror |[Explanation](https://leetcode.com/problems/symmetric-tree/)|[Code](src/main/java/Misc/DSA/TreeMirror.java)
 90 | Tree Path |[Explanation](https://leetcode.com/problems/binary-tree-paths/)|[Code](src/main/java/Misc/DSA/TreePath.java)
 91 | Sort Map by Values |[Explanation]()|[Code](src/main/java/Misc/Java8/SortMapByValues.java)
+92 | Binary Tree Level Order Traversal |[Explanation](https://leetcode.com/problems/binary-tree-level-order-traversal/)|[Code](src/main/java/Misc/Java8/BinaryTreeLevelOrderTraversal.java)
+93 | Tree Max Path Sum |[Explanation](https://leetcode.com/problems/binary-tree-maximum-path-sum/)|[Code](src/main/java/Misc/DSA/TreeMaxPathSum.java)
+94 | Tree Right side view |[Explanation](https://leetcode.com/problems/binary-tree-right-side-view/)|[Code](src/main/java/Misc/DSA/TreeRightSideView.java)
 
-Level order,Paths, Max path sum, 
+
 Right side view,flatten to linked list, Kth smallest, Next Right
  

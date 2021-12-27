@@ -15,7 +15,6 @@ public class TreeRightSideView {
     }
 
     private void rightSideView(TreeNode root, int level, ArrayList list) {
-
         if (root == null)
             return;
         if (level == list.size())

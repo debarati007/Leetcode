@@ -95,10 +95,23 @@ Sl. No.| Problem Name | Problem Explanation | Solution |
 89 | Tree Mirror |[Explanation](https://leetcode.com/problems/symmetric-tree/)|[Code](src/main/java/Misc/DSA/TreeMirror.java)
 90 | Tree Path |[Explanation](https://leetcode.com/problems/binary-tree-paths/)|[Code](src/main/java/Misc/DSA/TreePath.java)
 91 | Sort Map by Values |[Explanation]()|[Code](src/main/java/Misc/Java8/SortMapByValues.java)
-92 | Binary Tree Level Order Traversal |[Explanation](https://leetcode.com/problems/binary-tree-level-order-traversal/)|[Code](src/main/java/Misc/Java8/BinaryTreeLevelOrderTraversal.java)
+92 | Binary Tree Level Order Traversal |[Explanation](https://leetcode.com/problems/binary-tree-level-order-traversal/)|[Code](src/main/java/Misc/DSA/BinaryTreeLevelOrderTraversal.java)
 93 | Tree Max Path Sum |[Explanation](https://leetcode.com/problems/binary-tree-maximum-path-sum/)|[Code](src/main/java/Misc/DSA/TreeMaxPathSum.java)
 94 | Tree Right side view |[Explanation](https://leetcode.com/problems/binary-tree-right-side-view/)|[Code](src/main/java/Misc/DSA/TreeRightSideView.java)
+95 | Tree Flatten To Linked List |[Explanation](https://leetcode.com/problems/binary-tree-right-side-view/)|[Code](src/main/java/Misc/DSA/TreeFlattenToLinkedList.java)
+96 | Tree Kth Smallest |[Explanation](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)|[Code](src/main/java/Misc/DSA/TreeKthSmallest.java)
+97 | Number Of Islands |[Explanation](https://leetcode.com/problems/number-of-islands/)|[Code](src/main/java/Misc/DSA/NumberOfIslands.java)
+98 | Combination Sum |[Explanation](https://leetcode.com/problems/combination-sum/)|[Code](src/main/java/Misc/DSA/CombinationSum.java)
+99 | Combination Sum Difficult |[Explanation](https://leetcode.com/problems/combination-sum-ii/)|[Code](src/main/java/Misc/DSA/CombinationSumDifficult.java)
+100 | Palindrome Partitioning |[Explanation](https://leetcode.com/problems/palindrome-partitioning/)|[Code](src/main/java/Misc/DSA/PalindromePartitioning.java)
+101 | Fibonacci Number |[Explanation](https://leetcode.com/problems/fibonacci-number/)|[Code](src/main/java/Misc/DSA/FibonacciNumber.java)
+102 | Power of Two |[Explanation](https://leetcode.com/problems/power-of-two/)|[Code](src/main/java/Misc/DSA/PowerOfTwo.java)
+103 | Sum Of Digits Recursion |[Explanation]()|[Code](src/main/java/Misc/DSA/SumOfDigits.java)
+104 | Count Zero in A Number Recursion |[Explanation]()|[Code](src/main/java/Misc/DSA/CountZero.java)
+105 | Number Of Steps |[Explanation](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/)|[Code](src/main/java/Misc/DSA/CountZero.java)
+106 | Rotated Array Binary Search |[Explanation](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[Code](src/main/java/Misc/DSA/RotatedBinarySearch.java)
 
 
-Right side view,flatten to linked list, Kth smallest, Next Right
+
+
  

@@ -1,7 +1,7 @@
 package Misc.DSA;
 
 public class LinkedListReverse {
-
+//single list
     public ListNode reverseList(ListNode head) {
         if(head==null)
             return head;
@@ -21,4 +21,25 @@ public class LinkedListReverse {
         }
         return previous;
     }
+
+    //double linked list
+    //storing previous and next address of node in each node
+    //we need to swap this prev and next in each node
+    public ListNode reverseDoubleList(ListNode head) {
+        if(head==null)
+            return head;
+        ListNode current = head;
+        ListNode nextNode = null;
+        while(current!=null){
+            nextNode=current.next;
+            current.next=current.prev;
+            current.prev=nextNode;
+            current=nextNode;
+        }
+        current=head;
+        //head=tail
+        return head;
+    }
+
+
 }

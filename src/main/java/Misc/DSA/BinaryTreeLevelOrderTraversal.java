@@ -7,7 +7,7 @@ import java.util.Queue;
 
 public class BinaryTreeLevelOrderTraversal {
     public List<List<Integer>> levelOrder(TreeNode root) {
-        List<List<Integer>> wrapList = new ArrayList<>();
+        List<List<Integer>> result = new ArrayList<>();
         Queue<TreeNode> queue = new LinkedList<>();
         if (root != null) {
             queue.offer(root);
@@ -21,9 +21,9 @@ public class BinaryTreeLevelOrderTraversal {
                         queue.offer(queue.peek().right);
                     sublist.add(queue.poll().val);
                 }
-                wrapList.add(sublist);
+                result.add(sublist);
             }
         }
-        return wrapList;
+        return result;
     }
 }
